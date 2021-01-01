@@ -1,0 +1,530 @@
+{
+  "id": "38b179e1-8770-427d-b298-56cc592b7e4d",
+  "version": "2.0",
+  "name": "Users",
+  "url": "https://www.snapdeal.com/",
+  "tests": [{
+    "id": "3cc1dbb9-868f-4a56-8f60-32eeb08ded52",
+    "name": "user2_Flipkart",
+    "commands": [{
+      "id": "2a7292d2-7400-4d34-9f10-3ad533cb9362",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c50225b0-8be6-4b27-8426-ecb192b7fcec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "814x618",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "119110d1-ccbc-43c6-9ec3-11f6ca224112",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b983550-5396-4cf0-a4fb-58a2877f53ac",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsung galaxy m21"
+    }, {
+      "id": "c78d2a07-e79b-452f-ab43-6a755330651d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "50b6b576-39e3-43f1-aaaf-9b23321dd589",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bhgxx2:nth-child(2) .\\_3wU53n",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) .\\_3wU53n", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div/div/a/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1216",
+      "windowTimeout": 2000
+    }, {
+      "id": "783fb103-1c1a-4d77-af77-5626158982ac",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1216}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e59496b7-a02a-4dc0-977b-1874a38a842c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2MWPVK",
+      "targets": [
+        ["css=.\\_2MWPVK", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb759248-99fb-4968-8f62-b71f58cd9cb4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b1a56099-7a51-4155-916a-514b8de7078a",
+    "name": "user1_Flipkart",
+    "commands": [{
+      "id": "c7eb59a7-5683-4c30-a932-55d035c3ad72",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d91fa37-706f-4cbc-a600-d354743643bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8e5db0a-0d03-4734-b3ef-508b9f48c2d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_37vuDR:nth-child(3) .\\_2VeolH",
+      "targets": [
+        ["css=.\\_37vuDR:nth-child(3) .\\_2VeolH", "css:finder"],
+        ["xpath=(//img[@alt='cat-mob-hpw-slot-2'])[2]", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div/div[3]/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1f400d3-12e8-4678-a410-5aeb81a0d898",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcc7cf78-1f0b-4bc7-a7f4-01a2775e87cf",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23256ed3-292c-444f-84b7-7ef204446c3f",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsung galaxy m21"
+    }, {
+      "id": "9fe72f73-9e8d-41c6-9a53-ff963e3cd36e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6686c6e4-1361-4791-8635-d3c700c3b6a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bhgxx2:nth-child(2) .\\_3wU53n",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) .\\_3wU53n", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div/div/a/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5744",
+      "windowTimeout": 2000
+    }, {
+      "id": "d8ae54bd-fd7e-4f58-8d3b-9ebf49016766",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5744}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "561c0aeb-cce8-4af2-992a-a0fa16027dfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2MWPVK",
+      "targets": [
+        ["css=.\\_2MWPVK", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,' ADD TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b88cf05d-40b9-4b75-a102-8d0c031e3e8a",
+    "name": "user1_Snapdeal",
+    "commands": [{
+      "id": "e2f9e3ad-e777-4ab8-b5d6-06c93f531e8e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.snapdeal.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22c82a4d-6e5f-4362-b84b-96ad2210afb8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0156ee63-c6f6-4421-a07e-b63e9b4f9300",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f48d722a-37f6-4d10-b60c-bda648f12e18",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "samsung galaxy m31"
+    }, {
+      "id": "ddfa19b7-1315-40f5-9866-4b9bc97fe38b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.currenthover .subDefault",
+      "targets": [
+        ["css=.currenthover .subDefault", "css:finder"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/div[4]/div/div/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ceaa16-1e50-42a4-a4da-3b9e651cfe53",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,57.599998474121094)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c24e13cc-8768-4aee-8083-a8b827dd0a86",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87ef139d-b84e-47aa-a426-520bdec4bb69",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "samsung galaxy m21 "
+    }, {
+      "id": "b6096883-34bc-4936-aebb-55404e2f8cd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.currenthover > .subdiv",
+      "targets": [
+        ["css=.currenthover > .subdiv", "css:finder"],
+        ["xpath=(//a[@type='keyword'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/div[4]/div/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccf5e8e3-938a-4f0e-8d9e-9caf506f0c52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sub-cat-list:nth-child(2) .sub-cat-name",
+      "targets": [
+        ["css=.sub-cat-list:nth-child(2) .sub-cat-name", "css:finder"],
+        ["xpath=//ul[@id='js-12-nav']/li[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div/ul/li/ul/li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef6a97e7-9daf-4c6b-aef6-4c3e0b87ebf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 917529682576574946 .product-title",
+      "targets": [
+        ["css=#\\36 917529682576574946 .product-title", "css:finder"],
+        ["xpath=//div[@id='6917529682576574946']/div[3]/div/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Samsung Galaxy M21 ( 64GB , 4 GB ) Black')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8721",
+      "windowTimeout": 2000
+    }, {
+      "id": "28cd357b-d847-43af-8b0b-d85e2e893a0f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8721}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eff23c67-0e2a-46ed-9973-2d66e34f320a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#add-cart-button-id > .intialtext",
+      "targets": [
+        ["css=#add-cart-button-id > .intialtext", "css:finder"],
+        ["xpath=//div[@id='add-cart-button-id']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a66d73b3-72ee-4674-94b6-3ec58374ccf3",
+    "name": "user2_Snapdeal",
+    "commands": [{
+      "id": "9d1f76b5-495f-4054-ba3e-d344e0a94a93",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.snapdeal.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "912b5209-22b7-474d-b283-d2a270f4b308",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46d9d0ce-a6ba-4194-924e-9f24a14cf939",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56abeb3e-2f59-42f0-a695-98c51195f849",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "samsung galaxy m21 "
+    }, {
+      "id": "49f0700f-555c-44cb-84fc-039335bafe4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.currenthover > .subdiv",
+      "targets": [
+        ["css=.currenthover > .subdiv", "css:finder"],
+        ["xpath=(//a[@type='keyword'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/div[4]/div/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17a641c6-c581-4e7c-86cf-52c1c9baa3e9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3855dc1f-4e11-46ad-b129-6f117e14b281",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef3716ba-be1a-4f40-ba21-1a15e1db11bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "samsung galaxy m21 mobile phone 64gb"
+    }, {
+      "id": "8136c2ac-04b0-4606-a847-4d242a1a50b3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=inputValEnter",
+      "targets": [
+        ["id=inputValEnter", "id"],
+        ["name=keyword", "name"],
+        ["css=#inputValEnter", "css:finder"],
+        ["xpath=//input[@id='inputValEnter']", "xpath:attributes"],
+        ["xpath=//div[@id='sdHeader']/div[4]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "262ff560-7ecb-44e1-8a11-6fb40c38f1a3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16.799999237060547)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23f5d7f3-978f-40f2-b12b-bdcf0b605d73",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 917529682576574946 > .product-tuple-description",
+      "targets": [
+        ["css=#\\36 917529682576574946 > .product-tuple-description", "css:finder"],
+        ["xpath=//div[@id='6917529682576574946']/div[3]", "xpath:idRelative"],
+        ["xpath=//section/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "919a04da-8d47-4925-8228-4f7d4177ba09",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 917529682576574946 .product-title",
+      "targets": [
+        ["css=#\\36 917529682576574946 .product-title", "css:finder"],
+        ["xpath=//div[@id='6917529682576574946']/div[3]/div/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Samsung Galaxy M21 ( 64GB , 4 GB ) Black')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9927",
+      "windowTimeout": 2000
+    }, {
+      "id": "ffa56596-1ccb-4589-985e-8863808383da",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9927}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d316eab4-b0ab-48f6-82ad-061c09c1f201",
+      "comment": "",
+      "command": "click",
+      "target": "css=#add-cart-button-id > .intialtext",
+      "targets": [
+        ["css=#add-cart-button-id > .intialtext", "css:finder"],
+        ["xpath=//div[@id='add-cart-button-id']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "71327295-9bdf-4abd-945c-0e78685ee996",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
